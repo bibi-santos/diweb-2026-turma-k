@@ -1,0 +1,89 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: lightpink;
+}
+
+a{
+    color: salmon;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 20px;
+}
+
+p{
+    font-family: cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 40px;
+    color:palevioletred;
+}
+
+h2{
+    font-size: 30px;
+    color:palevioletred;
+}
+
+.nav, .content{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+a:hover{
+    color: lightgray;
+    font-size: 25px;
+}
+
+a:active{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 3px solid transparent;
+}
+
+.btn-01{
+    background-color: none;
+    color: deeppink;
+    border-color: deeppink;
+}
+
+.btn-01:hover{
+    background-color: deeppink;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-02{
+    background-color: lightcoral;
+    border: 3px solid transparent;
+    color:white;
+}
+
+.btn-02:hover{
+    background-color: transparent;
+    border: 3px solid lightpink;
+    color: lightpink;
+    font-size: 20px;
+}
+
+.btn-03{
+    border-radius: 50px;
+}
+
+.btn-04{
+    background-color: goldenrod;
+    border: 3px solid goldenrod;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
