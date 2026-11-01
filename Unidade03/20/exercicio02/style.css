@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    font-size: 16px;
+    color:gray;
+    background-image: url('./img/dogs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    width: 600px;
+}
+main{
+    width: 100%;
+    margin: 100px 0 20px 150px;
+}
+.title{
+    font-size: 80px;
+}
+.title-love{
+    color: darkgray;
+    font-style: italic;
+}
+.subtitle{
+    margin: 20px 0 50px 0;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #5a5a5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
